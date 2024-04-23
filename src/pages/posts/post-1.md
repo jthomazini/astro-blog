@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My First Blog Post'
-pubDate: 2022-07-01T05.00.00Z
-description: 'This is the first post of my new Astro blog.'
 author: 'Astro Learner'
+description: 'This is the first post of my new Astro blog.'
 image:
     url: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1677197124486/86fa95f6-e896-4c96-b180-7f9dc1b8e71d.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
     alt: 'The full Astro logo.'
+pubDate: 2022-07-01T05:00:00Z
 tags: ['astro', 'blogging', 'learning in public']
 ---
 
