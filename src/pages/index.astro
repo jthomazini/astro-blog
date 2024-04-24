@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Greeting from './components/Greeting';
 
 const pageTitle = 'Astro Blog Home';
 
@@ -11,4 +12,5 @@ const textCase = 'uppercase';
 
 <BaseLayout pageTitle={pageTitle} lang="en">
 	<h2>My Astro Site</h2>
+	<Greeting client:load messages={['Hej', 'Hallo', 'Hola', 'Habari']} />
 </BaseLayout>
